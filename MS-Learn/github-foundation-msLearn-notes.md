@@ -11,6 +11,7 @@
     - [GitHub accounts and plans](#github-accounts-and-plans)
       - [Account types](#account-types)
       - [GitHub plans](#github-plans)
+  - [GitHub Codespaces](#github-codespaces)
 
 ## Introduction to Git
 
@@ -73,14 +74,14 @@ got reset --hard
 
 #### Account types
 
-- Personal
+- **Personal**
   - Uses _Free_ or _Pro_ plan
-- Organization
+- **Organization**
   - Can use RBAC for users within organizations
   - High privilege roles:
     - organization owners
     - security managers
-- Enterprise
+- **Enterprise**
   - Enables inner sourcing
   - Centrally manage billing and policies
   - Must have a handle (organization or user account)
@@ -115,3 +116,8 @@ got reset --hard
     - A service level agreement for 99.9% monthly uptime
     - Option to centrally manage policy and billing for multiple GitHub.com organizations with an enterprise account
     - Option to provision and manage the user accounts for your developers, by using Enterprise Managed Users
+
+## GitHub Codespaces
+
+- Default timeout for codespace is 30 minutes
+- Default retention for inactive codespace is 30 days
